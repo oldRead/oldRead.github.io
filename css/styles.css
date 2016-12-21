@@ -1,0 +1,193 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+article img {
+    max-width: 150%;
+    max-height: 150%;
+}
+
+iframe{
+    border: none;
+}
+
+footer{
+    background: #888;
+    color: white;
+    font-size: 12px;
+}
+
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 180px;
+    width: 100%;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+}
+
+#main_container{
+    position: absolute;
+    top: 180px;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    background: #666;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 10px;
+    padding: 15px 0;
+}
+
+.title a:link,
+.title a:visited {
+    text-decoration: none;
+    background: #666;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 10px;
+    padding: 15px 0;
+}
+
+.top {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: 10px;
+}
+
+.sounds section{
+    background: #fafafa;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+    margin: 5px;
+}
+
+/*------------ ドロップメニュー ----------------*/
+#dropmenu{
+    *zoom: 1;
+    list-style-type: none;
+    padding: 0;
+}
+
+#dropmenu:before, .dropmenu:after{
+    display: table;
+}
+
+#dropmenu a{
+    margin-right: 1px;
+    background: #fff;
+}
+
+#dropmenu a:link,
+#dropmenu a:visited{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#dropmenu a:hover,
+#dropmenu a:active{
+    background: #fafafa;
+}
+
+#dropmenu li{
+    width: 20%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display:inline-block;
+    font-size: 14px;
+    background: #ddd;
+}
+
+#dropmenu li:first-child a{
+    margin-left: 1px;
+}
+#dropmenu li a{
+    
+}
+
+#dropmenu li:hover > a{
+
+}
+
+#dropmenu > li:hover > a{
+    border-radius: 3px 3px 0 0;
+}
+
+#dropmenu li ul{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 130px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 0 3px 3px;
+}
+
+#dropmenu li:last-child ul{
+
+}
+
+#dropmenu li ul li{
+    overflow: hidden;
+    font-size: 14px;
+    background: #ddd;
+    width: 20%;
+    height: 0;
+    color: #000;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    transition: .2s;
+}
+
+#dropmenu li ul li a{
+    text-align:center;
+    font-size: 12px;
+    font-weight: normal;
+}
+#dropmenu li:hover ul li{
+    overflow: visible;
+    height: 50px;
+}
+#dropmenu li:hover ul li:first-child{
+
+}
+#dropmenu li:hover ul li:last-child{
+  border-bottom: 0;
+}
+#dropmenu li:hover ul li:last-child a{
+  border-radius: 0 0 3px 3px;
+}
+
+.blank {
+    width: 100%;
+    height: 100%;
+}
