@@ -115,7 +115,7 @@ footer{
 }
 
 #dropmenu li{
-    width: 20%;
+    width: 16%;
     float: left;
     margin: 0;
     padding: 0;
@@ -158,7 +158,7 @@ footer{
     overflow: hidden;
     font-size: 14px;
     background: #ddd;
-    width: 20%;
+    width: 16%;
     height: 0;
     color: #000;
     -moz-transition: .2s;
